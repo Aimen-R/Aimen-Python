@@ -5,4 +5,5 @@ print("|    Name : Aimen Rehan                          |")
 print("|    Version : 01                                |")
 print("|                                                |")
 print(" ------------------------------------------------")
-x= 
+for x in range(500):
+  print(x)
