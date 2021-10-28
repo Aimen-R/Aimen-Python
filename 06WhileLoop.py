@@ -5,9 +5,14 @@ print("|    Name : Aimen Rehan                          |")
 print("|    Version : 01                                |")
 print("|                                                |")
 print(" ------------------------------------------------")
-name = input("What is the name of this subject")
-while name != IST:
-  print(N)
-  if i == 3:
-    break
-  i += 1
+subject = input("What is the name of this subject ")
+while subject != "IST":
+  print("Not Correct - try again ")
+  subject = input("What is the name of this subject ")
+if subject == "IST":
+  print("")
+  print("")
+  print("Congratulations!!")
+  print("")
+  print("")
+  print("")
