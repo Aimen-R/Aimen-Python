@@ -73,6 +73,14 @@ def whileLoop():
     print('\n----End of Output -----------------------------')
     input('\n\n\nPress enter to continue')
 
+def stringLoop():
+    print('----Start of Output ---------------------------\n')
+    string_name = input("What is your string ")
+    for i, v in enumerate(string_name):
+            print(v)
+    print('\n----End of Output -----------------------------')
+    input('\n\n\nPress enter to continue')
+
 def ToExit():
     print('----Start of Output ---------------------------\n')
     print('\n----End of Output -----------------------------')
@@ -100,6 +108,10 @@ if __name__=='__main__':
         elif option == '6':
             whileLoop()
             clearConsole()
+        elif option == '7' :
+            stringLoop()
+            clearConsole()
+            break
         elif option == 'x' :
             ToExit()
             break
